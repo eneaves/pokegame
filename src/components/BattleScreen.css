@@ -1,0 +1,40 @@
+.battle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.enemy-container{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 100px;
+    width: 100%;
+    height: 50%;
+}
+.my-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+    width: 100%;
+    height: 50%;
+}
+
+.enemy-health{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 50px;
+    color: seagreen;
+}
+
+.my-health{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+    color: seagreen;
+}
